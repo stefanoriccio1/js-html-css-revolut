@@ -1,5 +1,8 @@
 // alert ('ciao')
-$('.flex li a').hover(function(){
- $(this).next(".appendix").toggleClass('active')
-}
+$(document).ready(function(){
+  $('.flex li a').hover(function(){
+   $(this).next(".appendix").toggleClass('active')
+  }
+  );
+ }
 );
