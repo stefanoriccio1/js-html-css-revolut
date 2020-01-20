@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.wrapper::after{
+ content: "";
+ clear: both;
+ display: table;
+}
+.left{
+  float: left;
+  width: 30%;
+}
+.right{
+  float: right;
+  width: 70%;
+}
+
+.navbar{
+  height: 100px;
+  background-color: red;
+  border: 1px solid black;
+}
