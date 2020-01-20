@@ -26,7 +26,9 @@ body{
   float: right;
   width: 70%;
 }
-
+.relative{
+  position: relative;
+}
 .navbar{
   height: 100px;
   background-color: white;
@@ -62,13 +64,15 @@ justify-content: flex-end;
   background-color: rgba(211, 58, 127, 1);
 }
 .appendix{
-  margin-top: 20px;
-}
-.appendix{
+  position: absolute;
   display: none;
+  margin-top: 20px;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 1px 5px 5px lightgrey;
 }
+
 .appendix li{
-  margin-bottom: 20px;
+  padding: 20px;
 }
 .active{
   display: block;
