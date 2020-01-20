@@ -30,7 +30,6 @@ body{
 .navbar{
   height: 100px;
   background-color: white;
-  border: 1px solid black;
   padding-top: 40px;
 }
 
@@ -40,10 +39,14 @@ body{
 
 ul li{
   list-style: none;
-  padding-right: 15px;
+  padding: 0 10px;
 }
 ul li a{
   text-decoration: none;
+  color: #8C8E8F;
+}
+ul li a:hover{
+  color: black;
 }
 .menu{
 justify-content: flex-end;
@@ -51,6 +54,20 @@ justify-content: flex-end;
 .app{
   padding:15px;
   border-radius: 100px;
-  background-color: #D33A7F;
+  background-color: rgba(211, 58, 127, 0.8);
   color: white;
+}
+.app:hover{
+  color: white;
+  background-color: rgba(211, 58, 127, 1);
+}
+.appendix{
+  margin-top: 20px;
+}
+.appendix{
+  display: none;
+  margin-bottom: 10px;
+}
+.active{
+  display: block;
 }
