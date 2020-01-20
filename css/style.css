@@ -9,6 +9,9 @@
  clear: both;
  display: table;
 }
+.flex{
+  display: flex;
+}
 .left{
   float: left;
   width: 30%;
@@ -22,4 +25,17 @@
   height: 100px;
   background-color: red;
   border: 1px solid black;
+}
+
+.logo{
+  height: 20px;
+}
+
+ul li{
+  list-style: none;
+  padding-right: 10px;
+}
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
 }
